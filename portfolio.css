@@ -48,16 +48,74 @@ nav a{
  
 .header{
     background-color: white;
+
+    background-image: url('/portfolio-resources/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
 
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
 }
 .dp{
     width: 584px;
 height: 676px;
 flex-shrink: 0;
-Copy
+}
+.banner-greeting{
+    color: var(--dark-02, #474747);
+font-family: Open Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 600;
+margin-bottom: 0px;
+}
+.banner-title{
+    color: var(--dark-01, #181818);
+font-family: Open Sans;
+font-size: 85px;
+font-style: normal;
+font-weight: 700;
+margin-top: 5px;
+margin-bottom: 20px;
+}
+.bio{
+    color: var(--dark-03, #757575);
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin-top: 0px;
+}
 
+.about{
+    padding: 140px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin:130px 230px;
+}
+
+.section-title{
+    color: #181818;
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.section-description{
+    color: #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
 }
